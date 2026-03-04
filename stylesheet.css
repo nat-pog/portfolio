@@ -1,0 +1,59 @@
+body {
+    display: flex;
+    flex-direction: column; /* Stacks children vertically */
+    min-height: 100vh; /* Ensures the footer stays at the bottom */
+    margin: 0;
+    font-family: sans-serif;
+}
+
+header, nav, main, footer {
+    padding: 1rem;
+    text-align: center;
+}
+
+header {
+    background-color: #333;
+    color: white;
+}
+
+nav {
+    background-color: #eee;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex; /* Aligns nav items horizontally */
+    justify-content: center;
+    gap: 1rem; /* Adds space between links */
+}
+
+main {
+    flex-grow: 1; /* Makes the content area expand to fill available space */
+    background-color: #f9f9f9;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+}
+
+a {
+text-decoration: none;
+}
+
+a:visited {
+	color: green;
+}
+
+a:hover {
+    background-color: yellow;
+    color: blue;
+    text-decoration: underline;
+}
+
+a:active {
+	background-color: orange;
+	color: maroon;
+}
+
